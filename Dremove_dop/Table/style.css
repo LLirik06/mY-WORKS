@@ -1,0 +1,30 @@
+    table{
+        height: 1000px;
+        width: 1500px;
+        text-align: center;
+    }
+    .head{
+        background: linear-gradient(to left, brown, white);
+        color: rgb(0, 26, 255);
+    }
+    .name{
+        background-color: cornsilk;
+    }
+    td{
+        background-color: brown;
+    }
+    .power{
+        background-color: cornsilk;
+    }
+.man{
+    background-color: cornsilk;
+}
+.max{
+    background-color: cornsilk;
+}
+.down{
+    background: linear-gradient(to left, white,brown );
+}
+td{
+    border: thin;
+}

@@ -1,0 +1,27 @@
+table{
+    background-color: aquamarine;
+    color: blue;
+    border: 2px dashed rgb(116, 118, 238);
+    height:700px;
+    width: 700px;
+    margin:auto;
+    text-align: center;
+}
+td{
+    background-color: rgb(149, 228, 169);
+}
+.head{
+    background-color: rgb(83, 168, 97) ;
+}
+.lesson{
+    background-color: rgb(139, 80, 80);
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: -50px;
+    border-radius: 100%;
+}
+body{
+    background-color: bisque;
+}

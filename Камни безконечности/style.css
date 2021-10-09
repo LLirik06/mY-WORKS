@@ -1,0 +1,26 @@
+body{
+    background-color: burlywood;
+}
+.logo{
+    width: 800px;
+    height: 450px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+th{
+    background-color: coral;
+}
+table{
+    background-color: aquamarine;
+    height: 1000px;
+    width: 1250px;
+    margin:auto;
+    text-align: center;
+    border: 2px rgb(0, 0, 0);
+}
+.stone{
+    height: 212px;
+    width: 333px;
+    border-radius: 100%;
+}

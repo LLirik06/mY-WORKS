@@ -1,0 +1,8 @@
+body{
+    background: linear-gradient(white,rgb(136, 133, 133));
+    text-align: center;
+    font-size: 40px;
+}
+ul{
+    text-align: left;
+}

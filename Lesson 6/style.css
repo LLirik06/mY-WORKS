@@ -1,0 +1,79 @@
+.mother{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.child{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+}
+.child1{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0, 255, 34);
+}
+.child2{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(172, 216, 15);
+}
+.mother1{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 2cm;
+}
+.son{
+    display: flex;
+    height: 100px;
+}
+.child3{
+    width: 100px;
+    background-color: aquamarine;
+}
+.child4{
+     width: 100px;
+     background-color: brown;
+}
+.child5{
+    width: 100px;
+    background-color: cornflowerblue;
+}
+.son1{
+    background-color: rgb(255, 204, 0);
+    height: 100px;
+}
+.child6{
+    width: 50%;
+    background-color: darkblue;
+}
+.child7{
+    width: 50%;
+    background-color: darkolivegreen;
+}
+.mother2{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 2cm;
+    background-color: rgb(86, 167, 113);
+    align-items: center;
+}
+.child8{
+   background-color: aqua; 
+   width: 100px;
+   height: 100px;
+}
+.child9{
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+}
+.child10{
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: khaki;
+}
+.grandmother{
+    height: 800px;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+.head{
+    background-color: black;
+    color: blanchedalmond;
+    height: 10%;
+}
+.mother{
+    height: 100%;
+    display: flex;
+}
+.son1{
+    width: 20%;
+    background-color: aquamarine;
+}
+.son2{
+    width: 80%;
+    background-color: lemonchiffon;
+}
+.sonson1{
+    text-align: center;
+    height: 50%;
+    justify-content: space-around;
+}
+.color{
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+}
+.color1{
+    background-color: rgb(46, 185, 46);
+    width: 200px;
+    height: 200px;
+}
+.color2{
+    background-color: hotpink;
+    width: 200px;
+    height: 200px;
+}
+.foot{
+    background-color: black;
+    color: blanchedalmond;
+    height: 10%;
+}
+h2{
+    margin-top: 1cm;
+    font-size: 50px;
+}
+.box_fun{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1cm;
+}
+img{
+    margin-top: 1cm;
+    height: 400px;
+    width: 800px;
+}
+.color:hover{
+    border: 4px solid rgb(255, 255, 255);
+    background-color: black;
+}
+.color1:hover{
+    border: 4px solid rgb(0, 0, 0);
+    background-color: red;
+}
+.color2:hover{
+    border: 4px solid rgb(0, 0, 0);
+    background-color: blue;
+}
+P{
+    padding: 30px;
+    font-size: 30px;
+}

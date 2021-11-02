@@ -2,17 +2,25 @@
 *{
     margin: 0 auto;
 }
+.box_all{
+    width: 100%;
+    max-width: 1500px;
+}
+.header_inner{
+    width: 100%;
+}
 .header{
     background: url(./Jpg/165312-atmosfera-svet-astronomicheskij_obekt-art-nauka-3840x2160.jpg);
     width: 100%;
-    height: 650px;
-    background-size: 100%;
+    height: 100%;
+    background-size: cover;
 }
 .box_header1{
-    width: 80%;
+    width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     border-bottom: 2px solid white;
 } 
 .menu2 a{
@@ -28,8 +36,8 @@
     font-family: 'Dancing Script', cursive;
 }
 .box_header2{
-    width: 80%;
-    height: 200px;
+    width: 100%;
+    height: 80%;
     text-align: center;
     padding: 200px 0;
 }
@@ -66,8 +74,11 @@ box-shadow: 6px -2px 15px 3px rgba(0,0,0,0.92);
 }
 .content{
     width: 100%;
-    height: 500px;
+    height: 100%;
     background-color: white;
+}
+.content_inner{
+    width: 100%;
 }
 .mother1{
     width: 80%;
@@ -84,23 +95,25 @@ box-shadow: 6px -2px 15px 3px rgba(0,0,0,0.92);
     background-color: black;
 }
 .mother2{
-    width: 80%;
-    height: 320px;
+    width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
 }
 .container{
-    width: 25%;
+    width: 350px;
     height: 95%;
-    padding: 10px 0;
 }
 .logo{
     width: 100px;
     height: 100px;
     border-radius: 100%;
     border: 1px solid black;
-    text-align: center;
-    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: all 1s; */
 }
 .text_p{
     width: 100%;
@@ -110,14 +123,16 @@ box-shadow: 6px -2px 15px 3px rgba(0,0,0,0.92);
 .logo i{
     color: rgb(0, 0, 0);
     font-size: 45px;
-    margin-top: 0.75cm;
-    transition: all 1s;
+    /* transition: all 1s; */
 }
-.logo:hover{
+/* .logo:hover{
     background-color: crimson;
     box-shadow: 21px 18px 7px -7px rgba(34, 60, 80, 0.21);
-}
+} */  
 i:hover{
+    background-color: crimson;
+    border-radius: 100%;
+    padding: 27px 26px;
     color: white;
 }
 .footer{
@@ -146,4 +161,12 @@ i:hover{
 }
 .logo1:hover{
     background-color: brown;
+}
+@media screen and (max-width:400px) {
+    .menu2{
+        display: none;
+    }
+    .boxtextheader h1{
+        font-size: 30px;
+    }
 }

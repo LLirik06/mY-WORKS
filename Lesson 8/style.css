@@ -129,7 +129,7 @@ box-shadow: 6px -2px 15px 3px rgba(0,0,0,0.92);
     background-color: crimson;
     box-shadow: 21px 18px 7px -7px rgba(34, 60, 80, 0.21);
 } */  
-i:hover{
+.logo i:hover{
     background-color: crimson;
     border-radius: 100%;
     padding: 27px 26px;
@@ -141,26 +141,43 @@ i:hover{
     height: 200px;
 
 }
+.foot_inner{
+    width: 100%;
+}
 .foot1{
+    position: relative;
+    top: 45px;
     display: flex;
-    width: 80%;
     height: 30px;
+    width: 10%;
 }
 .logo1{
-    margin-top: 0.5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 30px;
     border-radius: 100%;
     border: 1px solid black;
-    transition: all 1s;
 }
-.logo1 i{
-    margin-left: 0.2cm;
-    margin-top: 0.2cm;
-    transition: all 1s;
+.logo1 i:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    padding: 9px 9px;
+    color: rgb(255, 0, 0);
 }
-.logo1:hover{
-    background-color: brown;
+@media screen and (max-width:1200px){
+    .foot1{
+        width: 25%;
+    }
+}
+@media screen and (max-width:600px){
+    .menu2{
+        display: none;
+    }
+    .foot1{
+        width: 40%;
+    }
 }
 @media screen and (max-width:400px) {
     .menu2{
@@ -168,5 +185,8 @@ i:hover{
     }
     .boxtextheader h1{
         font-size: 30px;
+    }
+    .foot1{
+        width: 50%;
     }
 }
